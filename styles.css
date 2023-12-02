@@ -1,0 +1,81 @@
+.main {
+  background: #253237;
+  color: white;
+  font-family: Inconsolata;
+}
+
+
+
+.button {
+  height: 50px;
+  width: 50px;
+  background: #5C6B73;
+  border-radius: 100%;
+  display: flex;
+  margin-left: 40px;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 6px black;
+  background: #697880;
+}
+.button:active {
+  background: #434e55;
+}
+
+.header-title {
+  font-weight: 600;
+  font-family: 'Gabarito', sans-serif;
+  font-size: 42px;
+  text-shadow: 0 1 12px black;
+  display: flex;
+  justify-content: center;
+  background: #5C6B73;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 25px;
+  box-shadow: 0 4px 4px black;
+
+}
+
+#coursera-img {
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+  text-align: center;
+  padding-left: 200px;
+  background: #5C6B73;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 25px;
+  padding-bottom: 24px;
+  padding-top: 50px;
+  margin-top: 32px;
+}
+
+#coursera-certificate {
+  box-shadow: 0px 20px 20px #242423;
+}
+
+.coursera-txt {
+  color: white;
+  text-shadow: 0 0px 4px black;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  margin: auto auto;
+}
+
+#three-weeks {
+  margin-top: 0 ;
+}
+
+.verify {
+  color: white;
+  font-size: 16px;
+}
+
+.verify:hover {
+  font-size: 17px;
+}
